@@ -1,0 +1,92 @@
+body {
+    background: #F2F2F2;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+
+body p {
+    font-family: 'Modak', cursive;
+    font-size: 10px;
+    color: #e51b54;
+}
+
+form {
+    display: inline-block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.myInput {
+    border-radius: .3em;
+    padding: 5px 5px;
+    width: 350px;
+    height: 25px;
+    border-style: groove;
+    margin-top: 5px;
+}
+
+button {
+    width: 360px;
+    height: 35px;
+    margin-bottom: 10px;
+    color: white;
+    background: #47B987;
+    border-radius: .3em;
+    border-style: none;
+}
+
+button a {
+    text-decoration: none;
+    color: white;
+}
+
+.log {
+    text-align: center;
+    color: #D4D4D4;
+    display: block;
+}
+
+#button2 {
+    width: 360px;
+    height: 35px;
+    margin-bottom: 10px;
+    background: #F8F8F8;
+    border-radius: .3em;
+    border-color: #ED017F;
+    margin-top: 7px;
+}
+
+#button2 a {
+    font-weight: bold;
+    color: #ED017F;
+    text-decoration: none;
+}
+
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .right {
+    right: 0;
+    background-color: #E51B54;
+  }
+
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+
+  .left {
+    left: 0;
+    background-color: #F2F2F2;
+  }
